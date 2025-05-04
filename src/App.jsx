@@ -5,12 +5,15 @@ import {
   Route,
   Navigate,
 } from "react-router-dom";
+
 import Layout from "./components/Layout";
-import Home from "./pages/Home";
-import Recipes from "./pages/Recipes";
-import About from "./pages/About";
-import RecipeDetail from "./pages/RecipeDetail";
-import Contact from "./pages/Contact";
+
+const Home = lazy(() => import("./pages/Home"));
+const Recipes = lazy(() => import("./pages/Recipes"));
+const About = lazy(() => import("./pages/About"));
+const RecipeDetail = lazy(() => import("./pages/RecipeDetail"));
+const Contact = lazy(() => import("./pages/Contact"));
+
 import ScrollToTop from "./components/ScrollToTop";
 
 function App() {
