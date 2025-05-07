@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaInstagram, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Footer() {
   return (
@@ -24,6 +24,14 @@ export default function Footer() {
               className="text-gray-500 hover:text-gray-800 transition"
             >
               <FaInstagram size={20} />
+            </a>
+            <a
+              href="https://www.github.com/abdul9838/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-gray-500 hover:text-gray-800 transition"
+            >
+              <FaGithub size={20} />
             </a>
             <a
               href="https://www.linkedin.com/in/abdul-ahad-04850a248/"

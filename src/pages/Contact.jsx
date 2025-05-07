@@ -13,7 +13,7 @@ export default function Contact() {
       {/* Contact Info */}
       <div className="mb-10 space-y-2">
         <h2 className="text-lg font-medium">Contact Details</h2>
-        <p>📍 123 Food Street, Taste City, FL 56789</p>
+        <p>📍 Madiyaon, Lucknow (Uttar Predesh) 206001</p>
         <p>
           📞{" "}
           <a href="tel:+919838848691" className=" hover:underline">
